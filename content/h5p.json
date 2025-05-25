@@ -1,6 +1,6 @@
 {
-  "title": "Tes Pengetahuan Umum (Contoh)",
-  "language": "id",
+  "title": "Contoh Soal H5P",
+  "language": "en",
   "mainLibrary": "H5P.MultiChoice 1.14",
   "embedTypes": [
     "div"

@@ -1,0 +1,27 @@
+{
+  "params": {
+    "question": "Apa ibu kota Indonesia?",
+    "answers": [
+      {
+        "text": "Jakarta",
+        "correct": true
+      },
+      {
+        "text": "Bandung",
+        "correct": false
+      },
+      {
+        "text": "Surabaya",
+        "correct": false
+      }
+    ],
+    "behaviour": {
+      "enableRetry": true,
+      "enableSolutionsButton": true
+    }
+  },
+  "metadata": {
+    "title": "Soal Pilihan Ganda",
+    "license": "U"
+  }
+}
