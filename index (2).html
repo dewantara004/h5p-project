@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>H5P Standalone Player</title>
+  <link rel="stylesheet" href="h5p-standalone.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #h5p-container {
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="h5p-container"></div>
+
+  <script src="h5p-standalone.js"></script>
+  <script>
+    const options = {
+      id: 'h5p-container',
+      frameJs: 'h5p-standalone.js',
+      frameCss: 'h5p-standalone.css',
+      contentJsonPath: 'content'
+    };
+    new H5PStandalone.H5P(options);
+  </script>
+</body>
+</html>
